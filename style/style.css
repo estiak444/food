@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.top-header{
+    background-color: #fff9ea;
+    
+    
+    
+
+}
+.nav-container{
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 90px;
+     margin: 0px 100px;
+
+
+
+}
+ul>li{
+     list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav-menu{
+     display: flex;
+     gap: 40px
+     ;
+}
+.sign-in-button{
+    padding: 8px 18px ;
+    border-radius: 20px;
+    background-color: #ffcb45;
+    border: none;
+    font-weight: 600;
+    
+
+}
+.fa-solid{
+    margin-right: 15px;
+}
+.nav-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+/* hero-section style
+ */
+.hero-container{background-image: url(../images/shapes\ \(1\).png);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.hero-parent{
+    
+    display: flex;
+ justify-content: space-around;
+}
+.one{
+    width: 600px ;
+    display: flex;
+    align-items: center;
+
+}
+.two{font-size: 36px;line-height: 45px;
+
+
+
+
+
+
+}
+.three{
+    color: #ffcb45;
+}
+.four{
+    font-size: 14px;
+    color:#615f5a;
+}
+.red{
+    color: #ffcb45;
+    text-align: center;
+    margin-top: 80px;
+}
+.blue{
+    text-align: center;
+}
+.green{
+    text-align: center;
+    color:#616161 ;
+}
+.serve-content{
+    display: flex;
+    gap: 140px
+    ;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+.order-one{
+    text-align: center;
+}
+.order-two{
+    text-align: center;
+    color: #616161;
+}
+/* popular container */
+.popular-container{
+
+    margin-top: 80px;
+}
+.popular-content{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.image-container{
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 15px 15px 0 0;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+.money{
+    font-weight: 600;
+}
+.box-one{
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 15px 15px 0 0;
+}
+.menu-btn{
+    background-color: #ffcb45;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 720px;
+    border: none;
+    font-weight: 600;
+    
+}
+.bottom-image{
+    position: relative;
+    top: -34px;
+}
+
+/* review style */
+
+.review-container{
+    display: flex;
+
+}
+.third-image{
+    position: relative;
+    left: -30px;
+}
+.review-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px
+    ;
+}
+.flex{
+    display: flex;
+    gap: 30px
+    ;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.join-us{
+    position: relative;
+    margin-left: 250px;
+    background-size: contain;
+
+
+
+}
+.center{
+
+    position: absolute;
+    top: 50%;
+    width: 1000px;
+    text-align: center;
+    font-size: 18px;
+}
+.gray{
+    color: #616161;
+}
+
+
+
+
+
